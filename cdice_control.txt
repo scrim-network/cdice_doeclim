@@ -1,0 +1,12 @@
+<model_dump> 1				// 1 write complete data dump of each sample; 0 do not write
+<start_year> 2010			// middle year of first decade timestep
+<nobjs> 4					// Number of objectives to optimize
+<nconsts> 2				// Number of constraints while optimizing
+<nevals> 100			// Number of function evaluations to optimize over
+<csSamples> 10				// Number of samples to pull from CS distribution
+<maxtime> 0.01667			// Number of hours to cap the optimization (1 min ~ 0.016667)
+<runtimeFreq> 0			// Runtime dynamics output frequency (NFE)
+<setSavings> 0.2582781457			// Savings rate ( <0 = decision var, optlrsav = 0.2582781457)
+<bau> 0					// 1 Run BAU Scenario; 0 Run as optimization
+<use_doeclim> 1               // Use the DOEClim model for the climate (1 = DOEClim, 0 = DICE)
+<policyInertia> -1.0			// Policy Inertia ( <= 0.0 for no policy inertia)
